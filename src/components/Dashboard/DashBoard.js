@@ -57,7 +57,7 @@ const Dashboard = () => {
     }
     fetchData();
 
-  }, [value,nav,fetchData])
+  }, [value])
 
 
   const handleChange = (newValue) => {
