@@ -30,7 +30,7 @@ export default function MoreInfo() {
         if(!localStorage.getItem('token')){
             nav('/Error')
         }
-    },[])
+    },[nav])
     
     var myHeaders = new Headers();
     const token = localStorage.getItem('token')

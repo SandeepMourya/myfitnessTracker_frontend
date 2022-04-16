@@ -31,11 +31,13 @@ const tempdata = [
 
 const Blogs = () => {
   const nav = useNavigate()
+
   useEffect(()=>{
     if(!localStorage.getItem('token')){
         nav('/Error')
       }
-},[])
+},[nav])
+
   return (
     <>
       <div className={classes.wrapper}>

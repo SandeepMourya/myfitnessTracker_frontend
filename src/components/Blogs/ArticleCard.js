@@ -9,7 +9,7 @@ import { CardActionArea } from '@mui/material';
 export default function ArticleCard(props) {
 
     console.log(props.Data.imgSrc)
-    let imagePath = `"../../assets/`+`${props.Data.imgSrc}"`
+    let imagePath = `"../../assets/${props.Data.imgSrc}"`
     console.log(imagePath)
   return (
     <Card sx={{ maxWidth: 395 }}>

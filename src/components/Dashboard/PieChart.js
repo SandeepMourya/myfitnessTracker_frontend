@@ -1,5 +1,5 @@
 import React from "react";
-import { RadialBarChart, RadialBar, Legend, ResponsiveContainer, PolarAngleAxis, Tooltip } from 'recharts';
+import { RadialBarChart, RadialBar, Legend,  PolarAngleAxis, Tooltip } from 'recharts';
 
 
 

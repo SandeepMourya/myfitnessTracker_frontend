@@ -1,6 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import Navbar from '../UI/Navbar';
 import classes from './Dashboard.module.css'
 import TextField from '@mui/material/TextField';
@@ -57,7 +57,7 @@ const Dashboard = () => {
     }
     fetchData();
 
-  }, [value])
+  }, [value,nav,fetchData])
 
 
   const handleChange = (newValue) => {

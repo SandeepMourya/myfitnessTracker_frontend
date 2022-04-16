@@ -3,7 +3,7 @@ import { useState ,useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../UI/Navbar';
 import classes from './UploadImage.module.css'
-import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { BarChart, Bar,XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 import { Typography, Button, Input } from '@mui/material';
 
@@ -14,7 +14,7 @@ function UploadImage() {
         if(!localStorage.getItem('token')){
             nav('/Error')
           }
-    },[])
+    },[nav])
 
     console.log("dhdhdh")
     const [image, setImage] = useState("s");

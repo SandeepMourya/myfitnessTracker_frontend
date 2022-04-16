@@ -87,7 +87,7 @@ export default function ExtraStats() {
           marginTop: "2%",
           color: "Black",
           fontFamily: 'Baloo Bhaijaan 2',
-          fontFamily:'cursive',
+          
           fontWeight:"lighter",
           fontSize:" 30px"
         }}
